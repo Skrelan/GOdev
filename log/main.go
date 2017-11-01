@@ -19,4 +19,6 @@ func main() {
 	runTests()
 	log.SetLogLevel("error")
 	runTests()
+	fmt.Println("The next line is going to be panic")
+	log.Panic("This is a panic")
 }
